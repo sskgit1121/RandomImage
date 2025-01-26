@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;/*at x-axis*/
+    align-items: center;/*at y-axis*/
+    flex-direction: column;
+    background-color: brown;   
+}
+.img-container{
+    text-align: center;/*at y-axis*/
+    margin: 10px;/*margin between images*/
+}
+.img-container img{
+    margin: 10px; 
+    border-radius: 5px;
+    background-color: lightgrey; /*there is no background reflection bcz there is no width and height*/ 
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.5);/*hori vert blur color(r,g,b, opacity)*/
+}
+.btn{
+    padding: 10px 20px;/*topbottom  leftright*/
+    margin: 20px;/*topbottom*/
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(148, 76, 216); 
+    font-size: medium;
+    transition: all 0.5s;
+    font-weight: 700;
+    
+}
